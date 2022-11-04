@@ -73,9 +73,9 @@ bot.on('interactionCreate', async (interaction) => {
         } else if (interaction.customId == 'prev') {
             onPrev(interaction);
         } else if (interaction.customId == 'plus') {
-            onVolume(interaction, 0.1);
+            onVolume(interaction, 0.01);
         } else if (interaction.customId == 'minus') {
-            onVolume(interaction, -0.1);
+            onVolume(interaction, -0.01);
         } else if (interaction.customId == 'link') {
             onLink(interaction);
         } else if (interaction.customId == 'shuffle') {

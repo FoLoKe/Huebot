@@ -27,7 +27,7 @@ export class BotPlayer {
     voiceChannelId;
     audioPlayer;
     res;
-    volume = 0.5;
+    volume = 0.10;
     lock = false;
 
     rewinded = 0;
